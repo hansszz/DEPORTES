@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="gallery.css">
+  <link rel="stylesheet" href="nav_footer.css">
+  <link rel="icon" href="logo.jpg" type="image/icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>DEPORTES | Gallery</title>
+  <script>
+    const radios = document.querySelectorAll('input[name="bg-color"]');
+    radios.forEach(radio => {
+      radio.addEventListener('change', function () {
+        document.body.className = `bg-${this.value}`;
+      });
+    });
+  </script>
+</head>
+
+<body>
+
+  <header>
+    <div class="navbar">
+      <img src="logo.jpg" alt="logo" class="logo">
+      <label id="logoLabel"> D E P O R T E S</label>
+      <nav>
+        <ul>
+          <li><a href="../../Student_2/MainPage.html">Home</a></li>
+          <li><a href="../../Student_2/comments.html">Comments</a></li>
+          <li><a href="../../Student_1/Shop/shop.html">Shop</a></li>
+          <li><a href="../../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+          <li><a href="../Gallery/gallery.html">Gallery</a></li>
+          <li><a href="../../Student_4/Site_Map/sitemap.html">Site Map</a></li>
+          <li><a href="../../Student_3/About_Us/index.html">About us</a></li>
+        </ul>
+      </nav>
+    </div>
+    <br>
+    <hr>
+  </header>
+  <main>
+    <div id="options">
+      <label for="font-size-select">Font size:</label>
+      <select id="font-size-select">
+        <option value="small">Small</option>
+        <option value="medium" selected>Medium</option>
+        <option value="large">Large</option>
+      </select>
+      <label>Background color:</label>
+      <input type="radio" id="color-option-1" name="background-color" value="lightgreen">
+      <label for="color-option-1">Light Green</label>
+
+      <input type="radio" id="color-option-2" name="background-color" value="lightgray">
+      <label for="color-option-2">Light Gray</label>
+
+      <input type="radio" id="color-option-3" name="background-color" value="lightblue">
+      <label for="color-option-3">Light Blue</label>
+
+      <input type="radio" id="color-option-4" name="background-color" value="random">
+      <label for="color-option-4">Random</label>
+
+      <button id="reset-button">Reset</button>
+    </div>
+    <script src="gallery.js"></script>
+    <h1>Gallery</h1><br>
+    <p id="titleAftergGallery">The Most Famous Competitions By Sport</p>
+    <div class="sportImg">
+      <div class="card">
+        <div class="cardfront"><img src="fifa.webp" alt=""></div>
+        <div class="cardback">
+          <p>The FIFA World Cup is the most popular sporting event globally, with over 3.5 billion viewers.</p>
+          <p> The tournament began in 1930 with only 13 participating teams, and Uruguay won the inaugural event.</p>
+          <p>32 teams now participate, selected through a three-year qualifying process.</p>
+          <p>Brazil has won the tournament five times, making them the most successful team in World Cup history.</p>
+          <p>The World Cup trophy, officially known as the FIFA World Cup Trophy, weighs 6.175 kg and is made of
+            18-carat gold. It has been awarded to the winners of the tournament since 1974.
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="uefa.webp" alt=""></div>
+        <div class="cardback">
+          <p>The UEFA Champions League is one of the most prestigious football club competitions in the world, with a
+            large global audience.</p>
+          <p>The tournament started in 1955 as the European Cup and has since evolved to become the UEFA Champions
+            League.</p>
+          <p>The competition involves 32 teams selected from Europe's top leagues, who play in a group stage followed by
+            knockout rounds.
+          </p>
+          <p> Real Madrid has won the tournament a record 13 times, followed by AC Milan with seven wins.</p>
+
+          <p>The Champions League trophy, made of sterling silver, weighs 7.5 kg and has been awarded to the winning
+            team
+            since 1967.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="t20.jpg" alt=""></div>
+        <div class="cardback">
+          <p>The ICC Men's T20 World Cup is a cricket tournament that takes place every two years and involves teams
+            from
+            around the world.</p>
+
+          <p>The tournament started in 2007 and was initially called the ICC World Twenty20. It was later renamed the
+            ICC
+            Men's T20 World Cup in 2019.</p>
+
+          <p>The current format of the tournament involves 16 teams playing in a group stage, followed by knockout
+            rounds
+            and a final.</p>
+
+          <p>The West Indies are the most successful team in the tournament's history, having won the tournament twice,
+            in
+            2012 and 2016.</p>
+
+          <p>The highest individual score in the tournament is 172 not out, achieved by Chris Gayle of the West Indies
+            against Zimbabwe in the 2016 tournament.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="Ashes.png" alt=""></div>
+        <div class="cardback">
+          <p>The Ashes is a test cricket series played between Australia and England. The series has
+            been played since 1882, making it one of the oldest and most historic rivalries in cricket.</p>
+          <p>The series gets its name from a satirical obituary published in a British newspaper, which mourned the
+            "death"
+            of English cricket after a loss to Australia. The obituary stated that "The body will be cremated and the
+            ashes taken to Australia."</p>
+
+          <p>The series is played biennially, with the team that wins the series taking home the urn, which is said to
+            contain the ashes of a burnt cricket ball.</p>
+
+          <p>The highest individual score in an Ashes test match is 334, scored by Australian batsman Matthew Hayden in
+            2003.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="nba.webp" alt=""></div>
+        <div class="cardback">
+          <p>The National Basketball Association (NBA) is a professional basketball league in North America that
+            consists
+            of 30 teams, 29 from the United States and 1 from Canada.
+          </p>
+          <p>The NBA was founded in 1946 and has since grown into one of the most popular and lucrative sports leagues
+            in
+            the world.</p>
+
+          <p>The NBA regular season runs from October to April, with each team playing 82 games. The playoffs then
+            follow,
+            with the top eight teams from each conference competing in a best-of-seven series to determine the NBA
+            champion.
+          </p>
+          <p>The Boston Celtics and the Los Angeles Lakers are the most successful franchises in NBA history, having won
+            17 and 16 championships, respectively.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="ipl.jpg" alt=""></div>
+        <div class="cardback">
+          <p>The Indian Premier League is a professional Twenty20 cricket league in India that was
+            founded in 2008.</p>
+
+          <p>The league is made up of eight teams, each representing a different city in India.</p>
+
+          <p>The league has become one of the most popular sporting events in India and has helped to revolutionize the
+            sport of cricket.</p>
+          <p>The IPL is known for its high-scoring matches, big-hitting batsmen, and high-quality cricket.</p>
+
+          <p>The league has attracted some of the biggest names in cricket, including Sachin Tendulkar, Virat Kohli, and
+            AB de Villiers.</p>
+          <p>The Mumbai Indians are the most successful team in IPL history, having won the tournament five times.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="superbowl.jpeg" alt=""></div>
+        <div class="cardback">
+          <p>The National Football League (NFL) is a professional American football league that was
+            founded in 1920.</p>
+          <p>The league consists of 32 teams, divided into two conferences (AFC and NFC) and eight divisions.
+          </p>
+          <p>The NFL regular season runs from September to December, with each team playing 16 games. The playoffs then
+            follow, with the top six teams from each conference competing in a single-elimination tournament to
+            determine the Super Bowl champion.</p>
+
+          <p>The Super Bowl is the biggest sporting event in the United States, with over 100 million people tuning in
+            to watch the game each year.
+          </p>
+          <p>The Pittsburgh Steelers and the New England Patriots are the most successful franchises in NFL history,
+            having
+            won six Super Bowl championships each.</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="rugby.jpg" alt=""></div>
+        <div class="cardback">
+          <p>The Rugby World Cup is an international rugby union competition that takes place every
+            four years.</p>
+          <p>The tournament was first held in 1987 and is organized by World Rugby, the sport's governing body.</p>
+          <p>The Rugby World Cup is contested by 20 teams, which are divided into four pools of five teams each.</p>
+          <p> The pool stage of the tournament consists of each team playing the other teams in their pool, with the top
+            two teams from each pool advancing to the knockout stage.
+          </p>
+          <p>The knockout stage consists of quarterfinals, semifinals, and a final to determine the champion.</p>
+          <p>The New Zealand All Blacks are the most successful team in Rugby World Cup history, having won the
+            tournament
+            three times (in 1987, 2011, and 2015).</p>
+
+        </div>
+      </div>
+      <div class="card">
+        <div class="cardfront"><img src="monaco.jpg" alt=""></div>
+        <div class="cardback">
+          <p>The Monaco Grand Prix is a Formula One race held annually in the streets of Monaco, a
+            small principality on the French Riviera.</p>
+          <p>The first Monaco Grand Prix was held in 1929 and has been held annually (except for during World War II)
+            ever since.</p>
+          <p>The Monaco Grand Prix is known for being one of the most challenging races on the Formula One calendar, due
+            to the tight and twisty circuit that winds through the streets of Monte Carlo.</p>
+          <p>The circuit is also known for its iconic features, including the famous hairpin turn at Loews Corner and
+            the tunnel that runs underneath the Fairmont Hotel.</p>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">
+    <div class="footerContainer">
+      <div class="footerRow">
+
+        <div class="footerLogo-div">
+          <img src="logo.jpg" alt="logo" class="footerLogo">
+
+        </div>
+
+        <div class="footerCol">
+          <h4>Navigate</h4>
+          <ul>
+            <li><a href="../../Student_2/MainPage.html">Home</a></li>
+            <li><a href="../../Student_2/comments.html">Comments</a></li>
+            <li><a href="../../Student_1/Shop/shop.html">Shop</a></li>
+            <li><a href="../../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+            <li><a href="../Gallery/gallery.html">Gallery</a></li>
+            <li><a href="../Site_Map/sitemap.html">Site Map</a></li>
+            <li><a href="../../Student_3/About_Us/index.html">About us</a></li>
+          </ul>
+        </div>
+
+        <div class="footerCol">
+          <h4>About Sports</h4>
+          <ul>
+            <li><a href="../../Student_3/Individual_Sports/individual_sports.html">Individual Sports</a></li>
+            <li><a href="../../Student_1/Dual_Sports/dual_sports.html">Dual Sports</a></li>
+            <li><a href="../Team_Sports/Team_Sport.html">Team Sports</a></li>
+            <li><a href="../../Student_2/ExtreamSports.html">Extream Sports</a></li>
+          </ul>
+        </div>
+
+        <div class="footerCol">
+          <h4>Follow us</h4>
+          <div class="socialLinks">
+            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+            <a href="https://twitter.com/i/flow/signup" class="fa fa-twitter"></a>
+            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+            <a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>

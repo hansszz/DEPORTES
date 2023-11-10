@@ -1,0 +1,110 @@
+/*for the whole body section */
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("commentsWallpaper.jpg");
+    background-position: center;
+    background-size: cover;
+    font-family: sans-serif;
+}
+/*for the whole form */
+.form{
+    height: 1100px;
+    width: 600px;
+    margin: auto;
+
+}
+/* for the reqired section */
+.required{
+    color: red;
+    font-size: 15px;
+    padding-top: 21px;
+    font-weight: bold;
+}
+/* fot the title of the form */
+.title{
+    height: 150px;
+    width: 600px;
+    background-image: url("paper_wallpaper.jpg");
+    background-size: cover;
+    
+    margin: 15px;
+    border-radius:10px ;
+    border-top: 8px solid grey;
+    padding: 25px;  
+}
+/* for all the below class names */
+.Name, .college,.gmail,.mobile ,.Q1 ,.Q2 ,.Q3 ,.Q4{
+    height: 150px;
+    width: 650px;
+    background-image: url("paper_wallpaper.jpg");
+    background-size: cover;
+    margin: 15px;
+    border-radius:10px ;
+}
+/* for all the questions */
+.name{
+    padding-top: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    font-size: 15px;
+    font-weight: bold;
+}
+/* for all the answers */
+.input{
+    padding-top: 25px;
+    padding-left: 25px;
+}
+/* for all the answers of input type text, email and textarea */
+.input input[type="text"], input[type="email"], textarea{
+    width: 300px;
+    border: 1;
+    outline: 0;
+    border-bottom: 1.5px solid #DCD7D7;
+    
+}
+/* for all the radio buttons */
+.radio{
+    padding-left: 145px;
+}
+/*for all the numbers of radio buttons */
+.radio label{
+    padding: 6.3px;
+}
+/*for the select tag under input class name */
+.input select{
+    width: 400px;
+    height: 40px;
+}
+/*for all the buttons  */
+.button{
+    height: 36px;
+    width: 100px;
+    background-color: gray;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: 540;
+    border: none;
+    padding: 10px;
+    margin: 15px;
+    color: white;
+    
+}
+/*when hovering over the buttons  */
+.button:hover{
+    cursor: pointer;
+    color: black;
+}
+/* for the go back to main page butoon*/
+#goBack{
+    margin-left: 216px;
+}
+/*for the error message displayed when user types an invalid input */
+#error{
+    
+    
+    border-radius: 10px;
+    margin-left: 20px;
+    color: red;
+    padding-left: 20px;
+    font-weight: bold;
+    
+}

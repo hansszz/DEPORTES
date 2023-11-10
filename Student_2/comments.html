@@ -1,0 +1,172 @@
+<!--Declaring that this file is of html5 type-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--metadata of the web page-->
+    <meta charset="UTF-8">
+    <!--seting the content to auto resize according to the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title logo for the website-->
+    <link rel="icon" href="logo.jpg">
+    <title>Comments</title>
+    <!--linking the external css style sheet of comments page-->
+    <link rel="stylesheet" href="comments.css">
+    <!--linking the external javascript file using src inside script tags-->
+    <script defer src="comments.js"></script>
+</head>
+
+<body>
+    <!--the form section-->
+    <form id="form" name="form" action="Thankyou.html" method="POST">
+        <div class="form">
+            <div class="title">
+                <!--the title of the form -->
+                <h1>Deportes Comments Form</h1>
+                <p class="required">*Required</p>
+            </div>
+            <!--for the first question -->
+            <div class="Name">
+                <div class="name"><label for="NAME"> What is your Name?</label><span class="required">*</span>
+                    <div class="input">
+                        <!--for the first answer of type text -->
+                        <input id="NAME" type="text" name="answer" placeholder="Enter Your Name">
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="college">
+                <!--for the second question -->
+                <div class="name"> <label> Which University are you from?</label><span class="required">*</span>
+                    <div class="input">
+                        <!--for the second answer of type text -->
+                        <input id="COLLEGE" type="text" name="answer" placeholder="Enter Your Name">
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="gmail">
+                <!--for the third question -->
+                <div class="name"> <label for="EMAIL"> Please enter your email.</label><span class="required">*</span>
+                    <div class="input">
+                        <!--for the third answer of type email -->
+                        <input id="EMAIL" type="email" name="answer" placeholder="Enter Your Email ">
+                    </div>
+                </div>
+            </div>
+
+            <div class="mobile">
+                <!--for the fourth question -->
+                <div class="name"> <label for="MOBILE"> Please enter your mobile number.</label><span
+                        class="required">*</span>
+                    <div class="input">
+                        <!--for the fourth answer of type text -->
+                        <input id="MOBILE" type="text" name="answer" placeholder="Enter Your Mobile Number ">
+                    </div>
+                </div>
+            </div>
+
+            <div class="Q1">
+                <!--for the fifth question -->
+                <div class="name"> <label> How satisfied are you with our website today?
+                        Choose from 1 to 10, where 1 is extremely dissatisfied and 10 is
+                        extremely satisfied.</label>
+
+                    <div class="input">
+                        <div class="radio">
+                            <!--for the fifth answer of type radio -->
+
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+                            <input  type="radio" name="radio">
+
+                            <br>
+
+                            <label>1</label>
+                            <label>2</label>
+                            <label>3</label>
+                            <label>4</label>
+                            <label>5</label>
+                            <label>6</label>
+                            <label>7</label>
+                            <label>8</label>
+                            <label>9</label>
+                            <label>10</label>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Q2">
+                <!--for the sixth question -->
+                <div class="name">Please could you tell us your reasons for giving this rating?
+                    <div class="input">
+                        <!--for the sixth answer of type textarea -->
+                        <textarea name="answer" cols="30" rows="1"></textarea>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Q3">
+                <!--for the seveth question -->
+                <div class="name"> <label for="DEVICE"> From which device did you fill this template?</label><span
+                        class="required">*</span> <br>
+                    <div class="input">
+                        <!--for the seventh answer of dropdown list -->
+                        <select id="DEVICE" >
+                            <option>--Please Select--</option>
+                            <option value="1">Phone</option>
+                            <option value="2"> Tablet</option>
+                            <option value="3">Personal Computer</option>
+                        </select>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="Q4">
+                <div class="name">
+                    <!--for the question eight -->
+                    Do you have any suggesions for futher improvements on our website?
+                    If so feel free to provide us with any feedback. <br>
+
+                    <div class="input">
+                        <!--for the answer eight of type textarea -->
+                        <textarea name="answer" cols="30" rows="1"></textarea>
+                    </div>
+
+                </div>
+            </div>
+
+            <!--a div tag to display error messages-->
+            <div id="error"></div>
+
+
+            <div class="btn-div">
+                <!--for reset button of type reset -->
+                <input class="button" type="reset" value="Clear">
+                <!--for submit button of type submit -->
+                <input class="button" type="submit" name="submit" value="Submit">
+                <!--the button which allows the user to go back to main page after selcting  -->
+                <a href="MainPage.html"><input class="button" id="goBack" type="button" value="Go Back"></a>
+            </div>
+
+
+        </div>
+    </form>
+
+</body>
+
+</html>

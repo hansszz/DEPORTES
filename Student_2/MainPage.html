@@ -1,0 +1,139 @@
+<!--Declaring that this file is of html5 type-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--meta data of the web page-->
+    <meta charset="UTF-8">
+    <!--seting the content to auto resize acoording to the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title logo for the website-->
+    <link rel="icon" href="logo.jpg">
+    <title>DEPORTES | Home</title>
+    <!--linking the external css style sheet of main page-->
+    <link rel="stylesheet" href="MainPage.css">
+    <!--linking the external css style sheet of navigation bar and footer-->
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <!--linking the web based external style sheet to get access to social media icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <!-- Navigation bar -->
+        <div class="navbar">
+            <!--logo for navigation bar-->
+            <img src="logo.jpg" alt="logo" class="logo">
+            <!--Label of the logo-->
+            <label id="logoLabel">D E P O R T E S</label>
+            <nav>
+                <!--the navigation links of the nav bar to direct to the rest of the pages-->
+                <ul>
+                    <li><a href="MainPage.html">Home</a></li>
+                    <li><a href="comments.html">Comments</a></li>
+                    <li><a href="../Student_1/Shop/shop.html">Shop</a></li>
+                    <li><a href="../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+                    <li><a href="../Student_4/Gallery/gallery.html">Gallery</a></li>
+                    <li><a href="../Student_4/Site_Map/sitemap.html">Site Map</a></li>
+                    <li><a href="../Student_3/About_Us/index.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <!--creating a row with div and class name row -->
+        <div class="row">
+            <!--creating the first column with div element and class name col-->
+            <div class="col">
+                <!--content inside the first coumn of the row whic consists of a heading and a paragraph -->
+                <h1 class="topic">Deportes</h1>
+                <p class="para">“Games give you a chance to excel, and if you're playing
+                    in good company you don't even mind if you lose because you had
+                    the enjoyment of the company during the course of the game.”
+                    ― Gary Gygax</p>
+            </div>
+
+            <!-- creating the second column with div and same class name col-->
+            <div class="col">
+
+                <!--creating anchor tag and div for card 1 -->
+                <a href="../Student_3/Individual_Sports/individual_sports.html" class="cardLinks">
+                    <div class="card" id="card1">
+                        <h5>Individual Sports</h5>
+                    </div>
+                </a>
+
+                <!--creating anchor tag and div for card 2 -->
+                <a href="../Student_1/Dual_Sports/dual_sports.html" class="cardLinks">
+                    <div class="card" id="card2">
+                        <h5>Dual Sports</h5>
+                    </div>
+                </a>
+
+                <!--creating anchor tag and div for card 3 -->
+                <a href="../Student_4/Team_Sports/Team_Sport.html" class="cardLinks">
+                    <div class="card" id="card3">
+                        <h5>Team Sports</h5>
+                    </div>
+                </a>
+
+                <!--creating anchor tag and div for card 4 -->
+                <a href="ExtreamSports.html" class="cardLinks">
+                    <div class="card" id="card4">
+                        <h5>Extreme Sports</h5>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!--Creating the footer section-->
+    <footer class="footer">
+        <div class="footerContainer">
+            <!--creating a row in the footer using a div element and a class name footerRow -->
+            <div class="footerRow">
+                <!--creating the first column of the row using a div element using the div element and a class name footerLogo-div-->
+                <div class="footerLogo-div">
+                    <img src="logo.jpg" alt="logo" class="footerLogo">
+
+                </div>
+                <!--creating the second column of the row using a div element and class name footerCol which includes the navigation bar links-->
+                <div class="footerCol">
+                    <h4>Navigate</h4>
+                    <ul>
+                        <li><a href="MainPage.html">Home</a></li>
+                        <li><a href="comments.html">Comments</a></li>
+                        <li><a href="../Student_1/Shop/shop.html">Shop</a></li>
+                        <li><a href="../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+                        <li><a href="../Student_4/Gallery/gallery.html">Gallery</a></li>
+                        <li><a href="../Student_4/Site_Map/sitemap.html">Site Map</a></li>
+                        <li><a href="../Student_3/About_Us/index.html">About us</a></li>
+                    </ul>
+                </div>
+                <!--creating the third column of the row using a div element and class name footerCol which includes Sports topics navigation links-->
+                <div class="footerCol">
+                    <h4>About Sports</h4>
+                    <ul>
+                        <li><a href="../Student_3/Individual_Sports/individual_sports.html">Individual Sports</a></li>
+                        <li><a href="../Student_1/Dual_Sports/dual_sports.html">Dual Sports</a></li>
+                        <li><a href="../Student_4/Team_Sports/Team_Sport.html">Team Sports</a></li>
+                        <li><a href="ExtreamSports.html">Extreme Sports</a></li>
+                    </ul>
+                </div>
+                <!--creating the fourth column of the row using a div element and class name footerCol which includes social media links-->
+                <div class="footerCol">
+                    <h4>Follow us</h4>
+                    <div class="socialLinks">
+                        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/i/flow/signup" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                        <a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

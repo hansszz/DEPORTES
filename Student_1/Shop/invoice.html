@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <link rel="icon" href="../sport.jpg">
+        <title>SHOP | Invoice</title>
+        <link rel="stylesheet" href="invoice.css">
+        <link rel="stylesheet" type="text/css" href="../nav_fot.css">
+    </head>
+    <body>
+        <div class="navbar">
+            <img src="../sport.jpg" alt="logo" class="logo">
+            <label id="logoLabel">D E P O R T E S</label>
+            <nav id="top">
+                <ul>
+                    <li><a href="../../Student_2/MainPage.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <br><br>
+        <div id="invoiceContent">
+            <div class="invoice-box">
+                <h2 class="section-header">- INVOICE -</h2>
+                <div class="information">
+                    <div>
+                        D E P O R T E S <br>
+                        No 456, <br>
+                        Galle-Face,<br>
+                        Colombo.<br>
+                        <br>
+                        Created on: 2023 February
+                    </div>
+                    <div>
+                        <img src="../sport.jpg" width="200px" height="200px">
+                    </div>
+                </div>
+                <br>
+                    <div class="userDetails">
+                        <p id="coustomerDTitile">Customer Details</p>
+                        <p id="paragraph"></p>
+                        <hr>
+                    </div>
+                    <section class="container content-section">
+                        <div class="cart-row">
+                            <span class="cart-item cart-header cart-column">ITEM</span>
+                            <span class="cart-price cart-header cart-column">PRICE</span>
+                        </div>
+                        
+                        <div id="Items"></div>   
+                        <div class="cart-total">
+                            <strong class="cart-total-title">Total</strong>
+                            <span id="total"></span>
+                        </div>
+                    </section>
+                    <hr>
+                    <div>
+                        D E P O R T E S<br>
+                        Contact Us : +94702341238
+                    </div>
+            </div>
+        </div>
+        <script>
+            document.getElementById("total").innerHTML=localStorage.getItem("textval");
+            document.getElementById("Items").innerHTML=localStorage.getItem("ITEMS");
+        </script>
+        <script src="invoice.js"></script>
+    </body>

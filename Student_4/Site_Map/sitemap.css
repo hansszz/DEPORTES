@@ -1,0 +1,43 @@
+rect {
+  fill: #64e2e2;
+  border-radius: 20px;
+  stroke-width: 6;
+  stroke: #64e2e2;
+}
+#siteMap {
+  fill: #76e013;
+  stroke: #76e013;
+}
+#line {
+  stroke: rgb(0, 0, 0);
+  stroke-width: 2;
+}
+text {
+  font-family: "Alkatra", cursive;
+  text-anchor: middle;
+  pointer-events: none;
+  fill: rgb(0, 0, 0);
+}
+rect:hover,
+text:hover {
+  cursor: pointer;
+  stroke: #76e013;
+}
+h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Poppins", sans-serif;
+  color: white;
+}
+video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  overflow: hidden;
+}

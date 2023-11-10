@@ -1,0 +1,77 @@
+<!--Declaring that this file is of html5 type-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--meta data of the web page-->
+    <meta charset="UTF-8">
+    <!--seting the content to auto resize acoording to the device width-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--title logo for the website-->
+    <link rel="icon" href="logo.jpg">
+    <title>Comments</title>
+    <!--linking the external css style sheet of main page-->
+    <link rel="stylesheet" href="ExternalStyle.css">
+    <!-- for Internal css section-->
+    <style>
+        /*for the whole body section */
+        body{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)), url("commentsWallpaper.jpg");
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+        /* for all that includes inside div element with class name white-box */
+        .white-box {
+            height: 150px;
+            width: 650px;
+            background-image: url("paper_wallpaper.jpg");
+            background-size: cover;
+            margin: 15px;
+            border-radius:10px ;
+            padding-top: 25px;
+            padding-left: 25px;
+            margin: auto;
+            margin-top: 30px;
+        }
+        /*for h1 tag */
+        .text1{
+            padding-left: 200px;
+            font-size: 40px;
+        }
+        /*for paragraph tag */
+        .text2{
+            padding-left: 150px;
+            font-size: 20px;
+        }
+      
+      </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <div class="navbar">
+        <!--logo for navigation bar-->
+        <img src="logo.jpg" alt="logo" class="logo"  >
+        <!--Label of the logo-->
+        <label id="logoLabel">D E P O R T E S</label>
+        <nav>
+            <!--the navigation links of the nav bar to direct to the rest of the pages-->
+            <ul>
+                <li><a href="MainPage.html">Home</a></li>
+                <li><a href="comments.html">Comments</a></li>
+                <li><a href="../Student_1/Shop/shop.html">Shop</a></li>
+                <li><a href="../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+                <li><a href="../Student_4/Gallery/gallery.html">Gallery</a></li>
+                <li><a href="../Student_4/SiteMap/sitemap.html">Site Map</a></li>
+                <li><a href="../Student_3/About_Us/index.html">About us</a></li>
+            </ul>
+        </nav>
+    </div>
+    <br>
+    <hr>
+
+    <div class="white-box">
+        <h1 class="text1">Thank You!</h1>
+        <p class="text2">Your form has been submitted successfully.</p>
+    </div>
+</body>
+</html>

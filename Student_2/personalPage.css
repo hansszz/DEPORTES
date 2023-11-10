@@ -1,0 +1,79 @@
+/* For the whole page */
+* {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* for the body section*/
+.head {
+    background-image: linear-gradient(rgba(141, 139, 139, 0.75), rgba(70, 69, 69, 0.75)), url("PersonalPageWallpaper.jpg");
+    background-size: cover;
+    align-items: center;
+
+}
+
+/* for all the parts after navigation bar untill footer*/
+.body {
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
+    color: white;
+}
+
+/* for the jump to bottom text of that repective anchor tag */
+.jumpToBottom {
+    text-align: center;
+    padding-bottom: 10px;
+
+}
+
+/* for all the anchor tags available under the div element with class name bodyContent*/
+.bodyContent a {
+    color: white;
+}
+
+/* when hovering over all the anchor tagsinside the div element with class name bodyContent */
+.bodyContent a:hover {
+    color: blue;
+}
+
+/* for the page editor title and user information */
+.start,
+.intro {
+    text-align: center;
+}
+
+/* for each div that is included with its heading and repective paragraph */
+.div {
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    text-align: center;
+}
+
+/* for all the h3 type headings */
+h3 {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+/* for page editor user information */
+.intro {
+    font-weight: bold;
+}
+
+/* for the h1 type heading */
+h1 {
+    font-size: 50px;
+}
+
+/*for all paragraph tags */
+p {
+    line-height: 25px;
+    font-size: 18px;
+}
+
+/* for the label tag */
+label {
+    padding-left: 105%;
+}

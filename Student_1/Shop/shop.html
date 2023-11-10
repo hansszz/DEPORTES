@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../sport.jpg">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <title> DEPORTES | Shop </title>
+        <link rel="stylesheet" type="text/css" href="../nav_fot.css">
+        <link rel="stylesheet" type="text/css" href="shop.css">
+        <script src="shop.js" async></script>
+        <script> 
+            // Passing Values To Invoice Page
+            function passvalues()
+            {
+                var finalTotal=document.getElementsByClassName("total-price")[0].innerText;
+                console.log(finalTotal);
+                localStorage.setItem("textval",finalTotal);
+                return false; 
+            }
+        </script>
+    </head>
+    <body>
+        <!--Background-->
+        <video id="bgvideo" autoplay muted loop>
+            <source src="vd1.mp4" type="video/mp4">
+        </video>
+         <!--Navigation bar-->
+        <div class="navbar">
+            <img src="../sport.jpg" alt="logo" class="logo">
+            <label id="logoLabel">D E P O R T E S</label>
+            <nav id="top">
+                <ul>
+                    <li><a href="../../Student_2/MainPage.html">Home</a></li>
+                    <li><a href="../../Student_2/comments.html">Comments</a></li>
+                    <li><a href="../Shop/shop.html">Shop</a></li>
+                    <li><a href="../../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+                    <li><a href="../../Student_4/Gallery/gallery.html">Gallery</a></li>
+                    <li><a href="../../Student_4/Site_Map/sitemap.html">Site Map</a></li>
+                    <li><a href="../../Student_3/About_Us/index.html">About Us</a></li>
+                </ul>
+            </nav>
+        </div>
+        <hr>
+        <h1>Shop</h1> 
+        <h3>You can shop your favorite items with us to play Tennis and Badminton..</h3>
+        <h3> We are authorized sport item seller with Wilson Sports.</h3>
+        <br>
+        <section class="container content-section">
+            <h2 class="section-header">Tennis</h2>
+            <!--Shop items-->
+            <div class="sports">
+                <div class="item">
+                    <span class="item-title">WILSON <br>Tennis Racket J1</span>
+                    <img class="item-image" src="wil1.jpg" alt="j1">
+                    <div class="item-details">
+                        <span class="item-price">$79.99</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="item-title">WILSON <br>BLX volt</span>
+                    <img class="item-image" src="wil2.jpg" alt="blx">
+                    <div class="item-details">
+                        <span class="item-price">$110.99</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <div class="item">
+                <span class="item-title">WILSON <br>Tennis Ball BSR1 </span>
+                <img class="item-image" src="bl2.jpg" alt="bsr1">
+                <div class="item-details">
+                    <span class="item-price">$36.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">MERCURY <br>Plus </span>
+                <img class="item-image" src="bl1.jpg" alt="plus">
+                <div class="item-details">
+                    <span class="item-price">$27.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Badminton</h2>
+            <div class="sports">
+                <div class="item">
+                    <span class="item-title">YONEX <br>VRD45</span>
+                    <img class="item-image" src="bd2.jpg" alt="vrd45">
+                    <div class="item-details">
+                        <span class="item-price">$99.99</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="item-title">DUNLOP <br>BDM 1c volt</span>
+                    <img class="item-image" src="bd1.jpg" alt="1c">
+                    <div class="item-details">
+                        <span class="item-price">$111.99</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <div class="item">
+                <span class="item-title">WISH <br>Badminton Racket </span>
+                <img class="item-image" src="bd3.jpg" alt="wish">
+                <div class="item-details">
+                    <span class="item-price">$55.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">YONEX <br>Feather Shuttlecock (FULL PACK) </span>
+                <img class="item-image" src="sh1.jpg" alt="YONEX">
+                <div class="item-details">
+                    <span class="item-price">$109.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">SHENGJIE <br>Feather Shuttlecock (FULL PACK) </span>
+                <img class="item-image" src="sh2.jpg" alt="SHENGJIE">
+                <div class="item-details">
+                    <span class="item-price">$89.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">Shoes</h2>
+            <div class="sports">
+                <div class="item">
+                    <span class="item-title">AVI <br>Mens Shoe AVI3x</span>
+                    <img class="item-image" src="bsh1.jpg" alt="avi3x">
+                    <div class="item-details">
+                        <span class="item-price">$75.99</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="item">
+                    <span class="item-title">YONEX <br>Indoor Sport Shoe UNISEX</span>
+                    <img class="item-image" src="bsh2.jpg" alt="yonex shoe">
+                    <div class="item-details">
+                        <span class="item-price">$89.59</span>
+                    </div>
+                    <div class="item-details">
+                        <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            <div class="item">
+                <span class="item-title">AVI <br>Mens Shoe AVI4ix </span>
+                <img class="item-image" src="bsh4.jpg" alt="AVI4ix">
+                <div class="item-details">
+                    <span class="item-price">$95.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">YONEX <br>FE4cx Women Sport Shoe </span>
+                <img class="item-image" src="bsh3.jpg" alt="YONEX women shoe">
+                <div class="item-details">
+                    <span class="item-price">$97.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">PUMA <br>Varion Unisex Sport Shoe VX2i </span>
+                <img class="item-image" src="bsh5.jpeg" alt="vx2i">
+                <div class="item-details">
+                    <span class="item-price">$119.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+            <div class="item">
+                <span class="item-title">PUMA <br>Varion Unisex Sport Shoe MS4j</span>
+                <img class="item-image" src="bsh6.jpg" alt="ms4j">
+                <div class="item-details">
+                    <span class="item-price">$107.99</span>
+                </div>
+                <div class="item-details">
+                    <button class="btn btn-primary item-button" type="button">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        </section>
+        <section class="container content-section">
+            <h2 class="section-header">CART</h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div id="mydiv1" class="cart-items">
+               
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="total-price">$0</span>
+            </div>
+        </section>
+        <div class="model" id="model">
+            <div class="wrapper">
+                <h2>Payment Form</h2>
+                <form action="invoice.html" method="post">
+                    <!--User Information-->
+                    <h4>Account Details</h4>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <input type="text" placeholder="First Name" required class="name">
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="text" placeholder="Surname" required class="name">
+                            <i class="fa fa-user icon"></i>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <input type="email" placeholder="e-mail" required class="name">
+                            <i class="fa fa-envelope icon"></i>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <input type="text" placeholder="Address" required class="name">
+                            <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="text" placeholder="City" required class="name">
+                            <i class="fa fa-institution icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <h4>Payment Details</h4>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <!--Payment details-->
+                            <input type="radio" name="pay" class="radio" id="bc1" checked>
+                            <label for="bc1">
+                                <span>
+                                    <i class="fa fa-cc-visa" aria-hidden="true"></i> Visa</span>
+                                </span>
+                            </label>
+                            <input type="radio" name="pay" class="radio" id="bc2">
+                            <label for="bc2">
+                                <span>
+                                    <i class="fa fa-cc-mastercard" aria-hidden="true"></i> Master Card</span>
+                                </span>
+                            </label>
+                            <input type="radio" name="pay" class="radio" id="bc3">
+                            <label for="bc3">
+                                <span>
+                                    <i class="fa fa-cc-amex" aria-hidden="true"></i> Amex</span>
+                                </span>
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <input type="tel" class="name" placeholder="Card Number" required>
+                            <i class="fa fa-credit-card" aria-hidden="true"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="text" class="name" placeholder="Card Holder's Name" required>
+                                <i class="fa fa-user icon" aria-hidden="true"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="number" class="name" placeholder="Card CVC 432" required>
+                            <i class="fa fa-credit-card-alt" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <input type="number" class="name" placeholder="EXP Month" required>
+                            <i class="fa fa-calendar icon"></i>
+                        </div>
+                        <div class="input_box">
+                            <input type="number" class="name" placeholder="EXP Year" required>
+                            <i class="fa fa-calendar-o icon"></i>
+                        </div>
+                    </div>
+                    <div class="input_group">
+                        <div class="input_box">
+                            <button type="submit" onclick="passvalues(),invoiceData()">Pay Now</button>
+                        </div>
+                    </div>
+                    <script>
+                        function invoiceData(){
+                                     var productsVar = document.getElementById('mydiv1').innerHTML;
+                                     localStorage.setItem("ITEMS",productsVar);
+                                     return;
+                                 }
+                    </script>
+                </form>
+                <script src="invoice.js"></script>
+            </div>
+        </div>
+        <div id="overlay"></div>
+        <script src="user_details.js" async></script>
+        <div class="scrollUp">
+            <label>
+                <a href="#top"><img src="../arrow.png" alt="go to top" width="30" height="30" title="Go to Top"></a>
+            </label>
+        </div>
+        <!--Footer-->
+        <footer class="footer">
+            <div class="footerContainer">
+                <div class="footerRow">
+                    <div class="footerLogo-div">
+                        <img src="../sport.jpg" alt="logo" class="footerLogo"  >
+                    </div>
+                    <div class="footerCol">
+                        <h4>Navigate</h4>
+                        <ul>
+                            <li><a href="../../Student_2/MainPage.html">Home</a></li>
+                            <li><a href="../../Student_2/comments.html">Comments</a></li>
+                            <li><a href="../Shop/shop.html">Shop</a></li>
+                            <li><a href="../../Student_3/Quiz/1stQuizPg.html">Quiz</a></li>
+                            <li><a href="../../Student_4/Gallery/gallery.html">Gallery</a></li>
+                            <li><a href="../../Student_4/Site_Map/sitemap.html">Site Map</a></li>
+                            <li><a href="../../Student_3/About_Us/index.html">About us</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerCol">
+                        <!--Links for extra content pages-->
+                        <h4>About Sports</h4>
+                        <ul>
+                            <li><a href="../../Student_3/Individual_Sports/individual_sports.html">Individual Sports</a></li>
+                            <li><a href="../Dual_Sports/dual_sports.html">Dual Sports</a></li>
+                            <li><a href="../../Student_4/Team_Sports/Team_Sport.html">Team Sports</a></li>
+                            <li><a href="../../Student_2/ExtreamSports.html">Extream Sports</a></li>
+                        </ul>
+                    </div>
+                    <div class="footerCol">
+                        <h4>Follow us</h4>
+                        <!--Social Media Links-->
+                        <div class="socialLinks">
+                            <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+                            <a href="https://twitter.com/i/flow/signup" class="fa fa-twitter"></a>
+                            <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+                            <a href="https://lk.linkedin.com/" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>

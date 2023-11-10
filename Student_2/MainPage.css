@@ -1,0 +1,86 @@
+/* for the whole webpage */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+/*for all the parts in body except footer */
+.container{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(67, 67, 67, 0.75),rgba(0, 0, 0, 0.75)),url("Sports.jpg") ;
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+}
+/* for the topic of the website */
+.topic{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+/* for the content under the topic of the website*/
+.para{
+    line-height: 22px;
+}
+
+/*for the created row div */
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+    color: white;
+    
+}
+/*for the created column divs */
+.col{
+    flex-basis: 50%;
+    padding-left: 8%;
+    
+}
+/*for the anchor tags of image cards  */
+.cardLinks{
+    color: white;
+}
+/* for the image cards  */
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 20px 25px;
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 22px;
+    transition: 0.5s;
+    text-align: center;
+}
+/* for card one of topic 1 */
+#card1{
+    background-image: url("individualSport.jpg");
+}
+/*for card 2 of topic 2 */
+#card2{
+    background-image: url("badminton.jpg");
+}
+/* for card 3 of topic 3*/
+#card3{
+    background-image: url("basketball.jpg");
+}
+/*for card 4 of topic 4 */
+#card4{
+    background-image: url("extremeCard.jpg");
+}
+/*when hovering over the cards */
+.card:hover{
+    transform: translateY(-10px);
+}
+
+
+
+
+

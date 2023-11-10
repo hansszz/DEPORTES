@@ -1,0 +1,81 @@
+/*for the whole page */
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+/*for all the parts in body exept nav and footer */
+.body{
+  height: auto;
+  line-height:30px ;
+}
+/* for all parts of body exept footer*/
+.div{
+  background-image:linear-gradient(rgba(67, 67, 67, 0.75),rgba(0, 0, 0, 0.75)), url("wallpaper2.jpg");
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+}
+/*for the parts of the webpage that include the subtopics */
+.container {
+  padding-left: 8%;
+  padding-right:8% ;
+  display: flex;
+  align-items: center;
+  
+  
+}
+/*for class named image div tags */
+.img {
+  max-width: 100%;
+  max-height: 100%;
+}
+/* for image tag*/ 
+img {
+  border-radius: 30px;
+}
+/* for all the text of subtopics*/
+.text {
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-right: 40px;
+  color: white;
+}
+/*for h2 and h1 tags */ 
+h2,
+h1 {
+  text-align: center;
+  color: white;
+}
+/* for h1 tag*/ 
+h1 {
+  font-size: 50px;
+}
+/*for all the paragraph tags */ 
+p {
+  text-align: justify;
+}
+/*for label tag */ 
+label {
+  padding-left: 90%;
+}
+/*ffor all text surrounded by div element of class name textBackground*/ 
+.textBackground {
+  
+  border-radius: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+
+
+  
+
+
+
+   
+   
+   

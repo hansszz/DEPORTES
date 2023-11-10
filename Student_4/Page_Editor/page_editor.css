@@ -1,0 +1,68 @@
+.title {
+  color: white;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+}
+body {
+  background-color: #0b8ce2;
+  margin: 0;
+  padding: 0;
+}
+.personal_info {
+  background-color: #17c4db;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.personal_info img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.personal_info .name {
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+  margin: 0;
+  text-align: center;
+}
+
+.personal_info .Student_No,
+.personal_info .ids {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.tasks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.tasks p {
+  background-color: white;
+  color: #333;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin: 10px;
+  transition: all 0.3s ease-in-out;
+  font-family: "Delicious Handrawn", cursive;
+}
+
+.tasks p:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
